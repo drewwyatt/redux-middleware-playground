@@ -44,7 +44,7 @@ function mapDispatchToProps(dispatch: Dispatch<any>): MappedDispatch {
             dispatch({
                 type: 'SEND_FETCH',
                 [FETCH]: {
-                    url: 'boom.boom.pow'
+                    url: 'http://jsonstub.com/pickles'
                 }
             });
         },
